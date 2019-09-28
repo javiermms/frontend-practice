@@ -13,9 +13,9 @@
                 <nav>
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Articles</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#articles">Articles</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
             </header>
@@ -31,12 +31,14 @@
             </div>
 
             <main>
-                <section>
+                <section id='about'>
                     <h2>About this Site</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula
+                    
+                    <p><span>Lorem ipsum dolor sit amet,</span> consectetur adipiscing elit. Suspendisse vehicula
                         metus in bibendum laoreet. Aenean libero est, egestas eu eros pretium, 
                         sodales iaculis est.
                     </p>
+                   
                     <figure>
                         <img src="images/vr-space.jpg" alt="user experiencing space in vr">
                         <figcaption>Virtual Reality Users can explore far 
@@ -45,7 +47,7 @@
                     </figure>
                 </section>
 
-                <section>
+                <section id='articles'>
                     <h2>Latest VR Articles</h2>
 
                     <article>
@@ -56,7 +58,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultrices euismod turpis eget porta. 
                             Etiam nulla massa, pretium et massa nec, ornare dignissim nisi.
                         </p>
-                        <a href="articles/2017/article.html">Read More</a>
+                        <a href="articles/2017/article.html#vr-article">Read More</a>
                         <footer>Published: June 12th, 2017</footer>
                     </article>
 
@@ -68,19 +70,25 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultrices euismod turpis eget porta. 
                             Etiam nulla massa, pretium et massa nec, ornare dignissim nisi.
                         </p>
-                        <a href="articles/2017/article.html">Read More</a>
+                        <a href="articles/2017/article.html#vr-article">Read More</a>
                         <footer>Published: June 28th, 2017</footer>
                     </article>
                 </section>
 
-                <section>
+                <section id='contact'>
                     <h2>Contact</h2>
-                    <p>Email us at coolvrexperience@gmail.com</p>
-                    <address>
-                        Experience VR<br>
-                        100 Virtual Way,<br>
-                        City, State 94117
-                    </address>
+                    
+                    <p><strong>Email: </strong><a href="mailto:coolvrexperience@gmail.com?subject=Hi%20There!">coolvrexperience@gmail.com</a></p>
+                    <p><strong>Phone: </strong>(123) 456- 789</p>
+                    <p>
+                        <strong>Address: </strong>
+                        <address>
+                            Experience VR<br>
+                            100 Virtual Way,<br>
+                            City, State 94117
+                        </address>
+                    </p>
+                    
                 </section>
             </main>
 
@@ -94,7 +102,7 @@
                 </ol>
 
                 <hr>
-                
+
                 <blockquote>"Virtual reality was once the dream of science fiction. But the internet was also once a dream,
                      and so were computers and smartphones. The future is coming." 
                      <footer>
@@ -104,7 +112,7 @@
             </aside>
 
             <footer>
-                <p>&copy;2019 Experience VR, The Blog</p>
+                <small><p>&copy;2019 Experience VR, The Blog</p></small>
             </footer>
         </div>  
     </body>
